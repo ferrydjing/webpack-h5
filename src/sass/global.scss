@@ -1,0 +1,21 @@
+@import './reset';
+
+@function rem($px) {
+  @return $px / 100 * 1rem;
+}
+
+body {
+  background: yellowgreen;
+  div {
+    width: rem(100);
+    height: rem(100);
+    background: red;
+    font-size: rem(20);
+  }
+
+  .btn {
+    width: rem(200);
+    height: rem(60);
+    background: lightblue;
+  }
+}
