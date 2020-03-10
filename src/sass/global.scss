@@ -5,7 +5,6 @@
 }
 
 body {
-  background: yellowgreen;
   div {
     width: rem(100);
     height: rem(100);
@@ -14,8 +13,10 @@ body {
   }
 
   .btn {
-    width: rem(200);
-    height: rem(60);
+    width: rem(529);
+    height: rem(250);
     background: lightblue;
+    transform: translateX(100%);
+    background: url(../img/no-data.png) no-repeat 100%;
   }
 }
